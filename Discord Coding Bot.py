@@ -25,4 +25,4 @@ async def on_message(message):
         #args[1:] = Hey There
         await client.send_message(message.channel, "%s" % (" ".join(args[1:])))
 
-client.run("NTQ4MDM5NDA2ODQyNDEzMDU3.D1AOsQ.Kij1WIoINwSpWVx1S5Sx_gUnQwo")
+client.run("NTQ4NTU3MTg2MjEzODcxNjM0.D1HE3A.3rMgGofmsT_CybvzS5j7fk2Eib0")
