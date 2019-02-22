@@ -17,6 +17,7 @@ async def on_message(message):
     if message.content.startswith('^ping'):
         userID = message.author.id
         await client.send_message(message.channel, "<@%s> Pong!" % (userID))
+        
     if message.content.startswith('^say'):
         args = message.content.split(" ")
         #args[0] = ^say
